@@ -70,12 +70,12 @@ nano Dockerfile
 ```console
 # image oluşturalım:
 docker build . -f Dockerfile -t elixir-validator
-#"permision denied" hatası alanlar kodun başına sudo eklesin
+# "permision denied" hatası alanlar kodun başına sudo eklesin
 
 # Node calıştırma:
 screen -S elixir
 docker run -it --name ev elixir-validator
-#"permision denied" hatası alanlar kodun başına sudo eklesin
+# "permision denied" hatası alanlar kodun başına sudo eklesin
 ```
 
 # Validator
